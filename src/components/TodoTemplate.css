@@ -1,0 +1,40 @@
+.todo-template {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 520px;
+    height: 800px;
+    background: white;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.04);
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #666;
+    overflow: hidden;
+
+}
+
+.todo-template h1 {
+    margin: 0 auto;
+    margin-top: 20px;
+    color: darkblue;
+}
+
+.todo-template h2 {
+    margin: 0 auto;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.content {
+    height: 100%;
+}
+
+.left_todo {
+    display: flex;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+}
